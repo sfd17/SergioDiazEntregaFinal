@@ -1,0 +1,101 @@
+/* estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #343a40;
+
+    .navbar-brand {
+        font-size: 24px;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+
+        nav li {
+            margin-right: 20px;
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+
+        nav ul {
+            margin-top: 10px;
+        }
+    }
+}
+
+/* main  */
+main {
+    background-image: url(../img/pareja.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 40px;
+
+    .general {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .textoindex {
+            flex: 1;
+            font-size: 18px;
+        }
+
+        .video {
+            flex: 1;
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 20px;
+
+        .general {
+            flex-direction: column;
+        }
+    }
+}
+
+/* footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+    .Redes {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+
+        .Redes li {
+            margin: 0 10px;
+        }
+    }
+}

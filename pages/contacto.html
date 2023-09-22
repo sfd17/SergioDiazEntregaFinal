@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../img/humo.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            >Leyla Antunez y Sergio Diaz</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/proximosshows.html"
+                  >Proximos Shows</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/sobrenosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="infototal">
+        <div class="parra">
+          <p class="info">
+            ¿Tienes alguna pregunta o comentario? ¿Quieres saber más sobre
+            nuestras clases de tango, eventos especiales o disponibilidad para
+            actuaciones? ¡Estamos aquí para ayudarte!
+          </p>
+          <!-- <p>
+            Puedes ponerte en contacto con nosotros a través de los siguientes
+            medios:
+          </p>
+          <ul>
+            <li class="info">Correo Electrónico: Leily_ley@hotmail.com</li>
+            <li class="info">Teléfono: 2235362968</li>
+          </ul>
+          <p>
+            Estamos ansiosos por escuchar tus comentarios y responder a tus
+            preguntas. No dudes en contactarnos en cualquier momento. ¡Esperamos
+            poder compartir la pasión del tango contigo!
+          </p> -->
+
+          <div class="formulario">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label"
+                  >Nombre</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  value="Nombre"
+                  required
+                />
+                <div class="valid-feedback">Buena suerte!</div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label"
+                  >Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom02"
+                  value="Apellido"
+                  required
+                />
+                <div class="valid-feedback">Buena suerte!</div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label"
+                  >Usuario</label
+                >
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend"
+                    required
+                  />
+                  <div class="invalid-feedback">Usuario</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label"
+                  >Ciudad</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom03"
+                  required
+                />
+                <div class="invalid-feedback">Ciudad.</div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom04" class="form-label"
+                  >Provincia</label
+                >
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Provincia</option>
+                  <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor, seleccione una provincia valida
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">País</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom05"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Por favor, seleccione un país valido
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck"
+                    required
+                  />
+                  <label class="form-check-label" for="invalidCheck">
+                    Acepto los términos y condiciones
+                  </label>
+                  <div class="invalid-feedback">Enviar</div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>
+        <ul class="Redes">
+          <li>
+            <a href="https://web.whatsapp.com/">
+              <img
+                width="50px"
+                src="../img/whatsapp-logo-1.png"
+                alt="whatsapp"
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/?lang=es">
+              <img width="60px" src="../img/twitter.png" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/">
+              <img width="50px" src="../img/youtube.jpg" alt="youtube" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>2023. Sergio Diaz. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
